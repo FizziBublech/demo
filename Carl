@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Voiceglow HTML Sample</title>
+
+        <!-- START COPY 1 -->
+        <link
+            defer
+            rel="stylesheet"
+            type="text/css"
+            href="https://storage.googleapis.com/speakwiz-app.appspot.com/vg_live_build/styles.css" />
+        <!-- END COPY 1 -->
+    </head>
+    <body>
+        <h1>Voiceglow HTML Sample</h1>
+        <p>This is basically your website here :)</p>
+        <p>Did you know that the strongest muscle in the body is the tongue?</p>
+
+        <!-- START COPY 2 -->
+        <div style="width: 0; height: 0;" id="VG_OVERLAY_CONTAINER"></div>
+        <script defer>
+            window.VG_ID = "r0gkikz3s";
+            window.onload = (event) => {
+                (async function () {
+                    const VG_SCRIPT = document.createElement("script");
+                    VG_SCRIPT.src = "https://storage.googleapis.com/speakwiz-app.appspot.com/vg_live_build/vg_bundle.js";
+                    document.body.appendChild(VG_SCRIPT);
+                })();
+            };
+        </script>
+        <!-- END COPY 2 -->
+    </body>
+</html>    
