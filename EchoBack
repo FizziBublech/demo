@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoBack - Keep Their Echo Alive</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.24/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="hero bg-cover bg-center h-screen flex items-center justify-center" style="background-image: url('https://via.placeholder.com/1200x800');">
+        <div class="text-center">
+            <h1 class="text-5xl font-bold text-white">Keep Their Echo Alive</h1>
+            <button class="mt-4 px-8 py-3 bg-blue-500 text-white rounded hover:bg-blue-600">Start Your Journey</button>
+        </div>
+    </section>
+    <section class="how-it-works my-12 px-4">
+        <h2 class="text-4xl font-bold text-center mb-6">How It Works</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="step text-center">
+                <h3 class="text-2xl font-bold">Upload Their Memories</h3>
+                <p>Upload texts, emails, and social media data to start creating a virtual echo of your loved one.</p>
+            </div>
+            <div class="step text-center">
+                <h3 class="text-2xl font-bold">Let Our AI Do the Magic</h3>
+                <p>Our advanced AI algorithms analyze the data and start crafting a unique digital echo.</p>
+            </div>
+            <div class="step text-center">
+                <h3 class="text-2xl font-bold">Interact With the Digital Echo</h3>
+                <p>Engage with your loved one's digital echo through text, voice, and more.</p>
+            </div>
+        </div>
+    </section>
+    <section class="features my-12 px-4">
+        <h2 class="text-4xl font-bold text-center mb-6">Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+            <div class="feature">
+                <h3 class="text-2xl font-bold">Instant Messaging</h3>
+                <p>Communicate in real-time with your loved one's digital presence.</p>
+            </div>
+            <div class="feature">
+                <h3 class="text-2xl font-bold">Voice Replication</h3>
+                <p>Experience a lifelike audio representation of your loved one.</p>
+            </div>
+            <div class="feature">
+                <h3 class="text-2xl font-bold">Digital Presence</h3>
+                <p>Feel their presence through a sophisticated digital avatar.</p>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials my-12 px-4">
+        <h2 class="text-4xl font-bold text-center mb-6">Testimonials</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <blockquote class="testimonial p-4 border-l-4 border-blue-500">
+                <p>"EchoBack has given me a way to feel connected to my loved one again. It's truly a comforting experience."</p>
+                <cite>– Jane Doe</cite>
+            </blockquote>
+            <blockquote class="testimonial p-4 border-l-4 border-blue-500">
+                <p>"The digital echo of my brother is so realistic, it's like having a piece of him back. Thank you, EchoBack."</p>
+                <cite>– John Smith</cite>
+            </blockquote>
+        </div>
+    </section>
+    <section class="about-echoback my-12 px-4">
+        <h2 class="text-4xl font-bold text-center mb-6">About EchoBack</h2>
+        <p class="text-center">EchoBack is founded on the philosophy of preserving memories and keeping connections alive. Our service is built with ethical considerations at its core, ensuring a respectful and meaningful experience.</p>
+    </section>
+    <footer class="bg-gray-100 py-4">
+        <div class="text-center">
+            <a href="#" class="mx-2">Contact Us</a>
+            <a href="#" class="mx-2">FAQ</a>
+            <a href="#" class="mx-2">Support</a>
+            <a href="#" class="mx-2">Terms of Service</a>
+        </div>
+    </footer>
+
+
+<div style="width: 0; height: 0;" id="VG_OVERLAY_CONTAINER">
+    <!-- Here is where Voiceglow renders the widget. -->
+    <!-- Set render to 'full-width' then adjust the width and height to 500px (for example) to render the chatbot itself without the popup. -->
+</div>
+
+<!-- Remove 'defer' if you want widget to load faster (Will affect website loading) -->
+<script defer>
+    window.VG_CONFIG = {
+        ID: "sz676cxl",
+        render: 'popup', // popup or full-width,
+        stylesheets: [
+            // Base Voiceglow CSS
+            "https://storage.googleapis.com/speakwiz-app.appspot.com/vg_live_build/styles.css",
+            // Add your custom css stylesheets, Can also add relative URL ('/public/your-file.css)
+        ],
+    }
+    const VG_SCRIPT = document.createElement("script");
+    VG_SCRIPT.src = "https://storage.googleapis.com/speakwiz-app.appspot.com/vg_live_build/vg_bundle.js";
+    document.body.appendChild(VG_SCRIPT);
+</script>
+
+</body>
+</html>
