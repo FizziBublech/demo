@@ -1,34 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Voiceglow HTML Sample</title>
-
-        <!-- START COPY 1 -->
-        <link
-            defer
-            rel="stylesheet"
-            type="text/css"
-            href="https://storage.googleapis.com/speakwiz-app.appspot.com/vg_live_build/styles.css" />
-        <!-- END COPY 1 -->
+      
     </head>
     <body>
         <h1>Hallo Michael</h1>
         <p>Das Chat Widget lädt gleich rechts unten</p>
 
-        <!-- START COPY 2 -->
-        <div style="width: 0; height: 0;" id="VG_OVERLAY_CONTAINER"></div>
-        <script defer>
-            window.VG_ID = "r0gkikz3s";
-            window.onload = (event) => {
-                (async function () {
-                    const VG_SCRIPT = document.createElement("script");
-                    VG_SCRIPT.src = "https://storage.googleapis.com/speakwiz-app.appspot.com/vg_live_build/vg_bundle.js";
-                    document.body.appendChild(VG_SCRIPT);
-                })();
-            };
-        </script>
-        <!-- END COPY 2 -->
+ <script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '6555ac2b66b821000720c574' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production'
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
     </body>
 </html>    
