@@ -1,0 +1,1091 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://alpha1personaltraining.com/xmlrpc.php" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- All in One SEO 4.5.1.1 - aioseo.com -->
+		<title>Home Page - Alpha1 Personal Training</title>
+		<meta name="description" content="A science based and tech forward personal training company focused on getting clients results and improving quality of life!" />
+		<meta name="robots" content="max-image-preview:large" />
+		<link rel="canonical" href="https://alpha1personaltraining.com/" />
+		<meta name="generator" content="All in One SEO (AIOSEO) 4.5.1.1" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:site_name" content="Alpha1 Personal Training - Alpha1 Personal Training" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Home Page - Alpha1 Personal Training" />
+		<meta property="og:description" content="A science based and tech forward personal training company focused on getting clients results and improving quality of life!" />
+		<meta property="og:url" content="https://alpha1personaltraining.com/" />
+		<meta property="og:image" content="https://alpha1personaltraining.com/wp-content/uploads/2023/09/A1PT-Logo-PNG.png" />
+		<meta property="og:image:secure_url" content="https://alpha1personaltraining.com/wp-content/uploads/2023/09/A1PT-Logo-PNG.png" />
+		<meta property="og:image:width" content="1724" />
+		<meta property="og:image:height" content="731" />
+		<meta property="article:published_time" content="2023-09-20T18:53:23+00:00" />
+		<meta property="article:modified_time" content="2023-11-24T18:37:54+00:00" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Home Page - Alpha1 Personal Training" />
+		<meta name="twitter:description" content="A science based and tech forward personal training company focused on getting clients results and improving quality of life!" />
+		<meta name="twitter:image" content="https://alpha1personaltraining.com/wp-content/uploads/2023/09/A1PT-Logo-PNG.png" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/alpha1personaltraining.com\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/alpha1personaltraining.com\/#listItem","position":1,"name":"Home"}]},{"@type":"Organization","@id":"https:\/\/alpha1personaltraining.com\/#organization","name":"Alpha1 Personal Training","url":"https:\/\/alpha1personaltraining.com\/","logo":{"@type":"ImageObject","url":"https:\/\/alpha1personaltraining.com\/wp-content\/uploads\/2023\/09\/A1PT-Logo-PNG.png","@id":"https:\/\/alpha1personaltraining.com\/#organizationLogo","width":1724,"height":731},"image":{"@id":"https:\/\/alpha1personaltraining.com\/#organizationLogo"},"contactPoint":{"@type":"ContactPoint","telephone":"+19522068855","contactType":"Main Business Line"}},{"@type":"WebPage","@id":"https:\/\/alpha1personaltraining.com\/#webpage","url":"https:\/\/alpha1personaltraining.com\/","name":"Home Page - Alpha1 Personal Training","description":"A science based and tech forward personal training company focused on getting clients results and improving quality of life!","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/alpha1personaltraining.com\/#website"},"breadcrumb":{"@id":"https:\/\/alpha1personaltraining.com\/#breadcrumblist"},"datePublished":"2023-09-20T18:53:23+00:00","dateModified":"2023-11-24T18:37:54+00:00"},{"@type":"WebSite","@id":"https:\/\/alpha1personaltraining.com\/#website","url":"https:\/\/alpha1personaltraining.com\/","name":"Alpha1 Personal Training","description":"Alpha1 Personal Training","inLanguage":"en-US","publisher":{"@id":"https:\/\/alpha1personaltraining.com\/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/alpha1personaltraining.com\/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Alpha1 Personal Training &raquo; Feed" href="https://alpha1personaltraining.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Alpha1 Personal Training &raquo; Comments Feed" href="https://alpha1personaltraining.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Alpha1 Personal Training &raquo; Home Comments Feed" href="https://alpha1personaltraining.com/sample-page/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.21.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-LB578XCZZ6"  data-cfasync="false" data-wpfc-render="false" async></script>
+			<script data-cfasync="false" data-wpfc-render="false">
+				var mi_version = '8.21.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+										'ga-disable-G-LB578XCZZ6',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+										__gtagTracker('config', 'G-LB578XCZZ6', {"forceSSL":"true","link_attribution":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/alpha1personaltraining.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<style id='wp-block-library-inline-css'>
+:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px;--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{clip:rect(1px,1px,1px,1px);word-wrap:normal!important;border:0;-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{clip:auto!important;background-color:#ddd;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0;--wp--style--global--content-size: 650px;--wp--style--global--wide-size: 1000px; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 1.5rem; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child:first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child:last-child { margin-block-end: 0; }body { --wp--style--block-gap: 1.5rem; }:where(body .is-layout-flow)  > :first-child:first-child{margin-block-start: 0;}:where(body .is-layout-flow)  > :last-child:last-child{margin-block-end: 0;}:where(body .is-layout-flow)  > *{margin-block-start: 1.5rem;margin-block-end: 0;}:where(body .is-layout-constrained)  > :first-child:first-child{margin-block-start: 0;}:where(body .is-layout-constrained)  > :last-child:last-child{margin-block-end: 0;}:where(body .is-layout-constrained)  > *{margin-block-start: 1.5rem;margin-block-end: 0;}:where(body .is-layout-flex) {gap: 1.5rem;}:where(body .is-layout-grid) {gap: 1.5rem;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}body{background-color: var(--wp--preset--color--foreground);color: var(--wp--preset--color--background);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--foreground);text-decoration: underline;}h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}
+</style>
+<style id='wp-block-template-skip-link-inline-css'>
+
+		.skip-link.screen-reader-text {
+			border: 0;
+			clip: rect(1px,1px,1px,1px);
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+
+		.skip-link.screen-reader-text:focus {
+			background-color: #eee;
+			clip: auto !important;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000;
+		}
+</style>
+<link rel='stylesheet' id='hfe-style-css' href='https://alpha1personaltraining.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.17' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://alpha1personaltraining.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.23.0' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://alpha1personaltraining.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.17.3' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://alpha1personaltraining.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
+<link rel='stylesheet' id='elementor-post-6-css' href='https://alpha1personaltraining.com/wp-content/uploads/elementor/css/post-6.css?ver=1700177573' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='https://alpha1personaltraining.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.17.1' media='all' />
+<link rel='stylesheet' id='elementor-post-2-css' href='https://alpha1personaltraining.com/wp-content/uploads/elementor/css/post-2.css?ver=1700851075' media='all' />
+<link rel='stylesheet' id='hfe-widgets-style-css' href='https://alpha1personaltraining.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.17' media='all' />
+<link rel='stylesheet' id='elementor-post-15-css' href='https://alpha1personaltraining.com/wp-content/uploads/elementor/css/post-15.css?ver=1700177573' media='all' />
+<link rel='stylesheet' id='elementor-post-208-css' href='https://alpha1personaltraining.com/wp-content/uploads/elementor/css/post-208.css?ver=1700177573' media='all' />
+<link rel='stylesheet' id='twentytwentytwo-style-css' href='https://alpha1personaltraining.com/wp-content/themes/twentytwentytwo/style.css?ver=1.6' media='all' />
+<link rel='stylesheet' id='eael-general-css' href='https://alpha1personaltraining.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.8.18' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRed+Hat+Text%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.1' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src="https://alpha1personaltraining.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.21.0" id="monsterinsights-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" id='monsterinsights-frontend-script-js-extra'>var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/alpha1personaltraining.com","hash_tracking":"false","v4_id":"G-LB578XCZZ6"};</script>
+<script src="https://alpha1personaltraining.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://alpha1personaltraining.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://alpha1personaltraining.com/wp-json/" /><link rel="alternate" type="application/json" href="https://alpha1personaltraining.com/wp-json/wp/v2/pages/2" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://alpha1personaltraining.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.1" />
+<link rel='shortlink' href='https://alpha1personaltraining.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://alpha1personaltraining.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Falpha1personaltraining.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://alpha1personaltraining.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Falpha1personaltraining.com%2F&#038;format=xml" />
+<meta name="generator" content="Elementor 3.17.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<meta name="generator" content="Powered by Slider Revolution 6.6.16 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<style id='wp-fonts-local'>
+@font-face{font-family:"Source Serif Pro";font-style:normal;font-weight:200 900;font-display:fallback;src:url('https://alpha1personaltraining.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:"Source Serif Pro";font-style:italic;font-weight:200 900;font-display:fallback;src:url('https://alpha1personaltraining.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');font-stretch:normal;}
+</style>
+<link rel="icon" href="https://alpha1personaltraining.com/wp-content/uploads/2023/09/Wolf-Head-PNG-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://alpha1personaltraining.com/wp-content/uploads/2023/09/Wolf-Head-PNG.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://alpha1personaltraining.com/wp-content/uploads/2023/09/Wolf-Head-PNG.png" />
+<meta name="msapplication-TileImage" content="https://alpha1personaltraining.com/wp-content/uploads/2023/09/Wolf-Head-PNG.png" />
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+<style id="wpforms-css-vars-root">
+				:root {
+					--wpforms-field-border-radius: 3px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+
+				}
+			</style></head>
+
+<body class="home page-template page-template-elementor_header_footer page page-id-2 wp-custom-logo wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-2">
+<div id="page" class="hfeed site">
+
+		<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+			<p class="main-title bhf-hidden" itemprop="headline"><a href="https://alpha1personaltraining.com" title="Alpha1 Personal Training" rel="home">Alpha1 Personal Training</a></p>
+					<div data-elementor-type="wp-post" data-elementor-id="15" class="elementor elementor-15" data-elementor-post-type="elementor-hf">
+							<div class="elementor-element elementor-element-3b49743 e-con-full e-flex e-con e-parent" data-id="3b49743" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-a3c4a42 e-con-full e-flex e-con e-child" data-id="a3c4a42" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-49e0a64 elementor-widget elementor-widget-image" data-id="49e0a64" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>													<a href="https://alpha1personaltraining.com/">
+							<img width="1536" height="651" src="https://alpha1personaltraining.com/wp-content/uploads/2023/09/A1PT-Horizontal-PNG-WHITE-1536x651.png" class="attachment-1536x1536 size-1536x1536 wp-image-900" alt="" srcset="https://alpha1personaltraining.com/wp-content/uploads/2023/09/A1PT-Horizontal-PNG-WHITE-1536x651.png 1536w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/A1PT-Horizontal-PNG-WHITE-300x127.png 300w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/A1PT-Horizontal-PNG-WHITE-1024x434.png 1024w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/A1PT-Horizontal-PNG-WHITE-768x326.png 768w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/A1PT-Horizontal-PNG-WHITE.png 1724w" sizes="(max-width: 1536px) 100vw, 1536px" />								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-1f08990 e-con-full e-flex e-con e-child" data-id="1f08990" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-34d6083 elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="34d6083" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h6 class="elementor-heading-title elementor-size-default"><a href="https://alpha1personaltraining.com/programs/">Programs</a></h6>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-679313b e-con-full e-flex e-con e-child" data-id="679313b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-24a07c8 elementor-widget elementor-widget-heading" data-id="24a07c8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default"><a href="https://alpha1personaltraining.com/technology-and-wellness/">Technology & Wellness</a></h6>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-02d6ec3 e-con-full e-flex e-con e-child" data-id="02d6ec3" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-02c2e92 elementor-widget elementor-widget-heading" data-id="02c2e92" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default"><a href="https://alpha1personaltraining.com/shop/">Shop</a></h6>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6d1ade1 e-con-full e-flex e-con e-child" data-id="6d1ade1" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-a40304e elementor-widget elementor-widget-heading" data-id="a40304e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default"><a href="https://alpha1personaltraining.com/about-us/">About Us</a></h6>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-430dda7 e-con-full e-flex e-con e-child" data-id="430dda7" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-9bdabb3 elementor-widget elementor-widget-heading" data-id="9bdabb3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default"><a href="https://alpha1personaltraining.com/locations/">Locations</a></h6>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3719879 e-con-full e-flex e-con e-child" data-id="3719879" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-9ed9a31 elementor-widget elementor-widget-heading" data-id="9ed9a31" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default"><a href="https://alpha1personaltraining.com/testimonials/">Testimonials</a></h6>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3a6d675 e-con-full e-flex e-con e-child" data-id="3a6d675" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-340568f elementor-widget elementor-widget-heading" data-id="340568f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default"><a href="http://www.alpha1personaltraining2.com/locations">📅 Schedule Appointment</a></h6>		</div>
+				</div>
+				</div>
+				</div>
+							</div>
+				</header>
+
+			<div data-elementor-type="wp-page" data-elementor-id="2" class="elementor elementor-2" data-elementor-post-type="page">
+							<div class="elementor-element elementor-element-14ae6c7 e-con-full e-flex e-con e-parent" data-id="14ae6c7" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;}" data-core-v316-plus="true">
+				<div class="elementor-element elementor-element-c552c27 elementor-widget elementor-widget-shortcode" data-id="c552c27" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode">
+			<!-- START Home Page REVOLUTION SLIDER 6.6.16 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background:#353535;padding:0;">
+				<rs-module id="rev_slider_1_1" style="" data-version="6.6.16">
+					<rs-slides style="overflow: hidden; position: absolute;">
+						<rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" data-anim="f:random;" data-in="o:0;sx:1.1;sy:1.1;m:true;row:5;col:5;" data-out="a:false;">
+							<img decoding="async" src="//alpha1personaltraining.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Confidance-2-shorter.jpg" width="1920" height="900" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//alpha1personaltraining.com/wp-content/uploads/revslider/fitness-slider-short/Confidance-2-shorter.jpg" data-parallax="8" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-1-slide-1-layer-6" 
+								data-type="text"
+								data-color="rgba(255, 255, 255, 1)"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-496px,-496px,-496px,-184px;yo:442px,442px,442px,99px;"
+								data-text="s:30,30,30,15;l:22;"
+								data-dim="w:88px,88px,88px,auto;"
+								data-frame_0="x:-50px;"
+								data-frame_1="st:1690;sp:790;sR:1690;"
+								data-frame_999="o:0;e:nothing;st:w;sR:6520;"
+								style="z-index:9;font-family:'Raleway';"
+							>YOU 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-1-slide-1-layer-11" 
+								data-type="object"
+								data-rsp_ch="on"
+								data-xy="xo:50px,50px,50px,19px;yo:292px,292px,292px,112px;"
+								data-text="w:normal;s:20,20,20,7;l:0,0,0,9;"
+								data-frame_999="o:0;st:w;sR:8700;"
+								style="z-index:12;font-family:'Roboto';"
+							> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-1-slide-1-layer-12" 
+								data-type="text"
+								data-color="rgba(255, 255, 255, 1)"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-264px,-264px,-264px,-160px;yo:349px,349px,349px,52px;"
+								data-text="s:30,30,30,15;l:22;"
+								data-dim="w:556.094px,556.094px,556.094px,auto;"
+								data-frame_0="x:-50px;"
+								data-frame_1="st:690;sp:790;sR:690;"
+								data-frame_999="o:0;e:nothing;st:w;sR:7520;"
+								style="z-index:8;font-family:'Raleway';"
+							>WHEN YOU 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-1-slide-1-layer-13" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="xo:682px,682px,682px,252px;yo:492px,492px,492px,140px;"
+								data-text="w:normal;s:20,20,20,7;l:0,0,0,9;"
+								data-dim="w:60px,60px,60px,22px;h:60px,60px,60px,22px;"
+								data-frame_1="st:2680;sR:2680;"
+								data-frame_999="o:0;st:w;sR:6020;"
+								style="z-index:14;"
+							><img decoding="async" src="//alpha1personaltraining.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="100" height="100" data-lazyload="//alpha1personaltraining.com/wp-content/uploads/revslider/fitness-slider-short/down-arrows.png" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-1-slide-1-layer-14" 
+								data-type="text"
+								data-color="rgba(255, 255, 255, 1)"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-183px,-183px,-183px,0;yo:397px,397px,397px,76px;"
+								data-text="w:normal;s:60,60,60,25;l:22;fw:700;"
+								data-dim="w:721px,721px,721px,403px;h:39px,39px,39px,26px;"
+								data-frame_0="x:-50px;"
+								data-frame_1="st:1080;sp:700;sR:1080;"
+								data-frame_999="o:0;e:nothing;st:w;sR:7220;"
+								style="z-index:10;font-family:'Raleway';"
+							>FORGET YOUR EXCUSES 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-1-slide-1-layer-15" 
+								data-type="text"
+								data-color="#e1171d"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-150px,-150px,-150px,-38px;yo:452px,452px,452px,102px;"
+								data-text="s:60,60,60,25;l:22;fw:700;"
+								data-frame_0="x:-50px;"
+								data-frame_1="st:2080;sp:700;sR:2080;"
+								data-frame_999="o:0;e:nothing;st:w;sR:6220;"
+								style="z-index:11;font-family:'Raleway';"
+							>FIND YOUR RESULTS 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-1-slide-1-layer-17" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="xo:186px,186px,186px,87px;yo:492px,492px,492px,140px;"
+								data-text="w:normal;s:20,20,20,7;l:0,0,0,9;"
+								data-dim="w:60px,60px,60px,22px;h:60px,60px,60px,22px;"
+								data-frame_1="st:2680;sR:2680;"
+								data-frame_999="o:0;st:w;sR:6020;"
+								style="z-index:13;"
+							><img decoding="async" src="//alpha1personaltraining.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="100" height="100" data-lazyload="//alpha1personaltraining.com/wp-content/uploads/revslider/fitness-slider-short/down-arrows.png" data-no-retina> 
+							</rs-layer><!--
+-->						</rs-slide>
+					</rs-slides>
+				</rs-module>
+				<script>
+					setREVStartSize({c: 'rev_slider_1_1',rl:[1240,1240,1240,480],el:[581,581,581,300],gw:[1240,1240,1240,480],gh:[581,581,581,300],type:'hero',justify:'',layout:'fullscreen',offsetContainer:'#wpadminbar, .sh-window-line.line-bottom, .sh-window-line.line-top',offset:'',mh:"0"});if (window.RS_MODULES!==undefined && window.RS_MODULES.modules!==undefined && window.RS_MODULES.modules["revslider11"]!==undefined) {window.RS_MODULES.modules["revslider11"].once = false;window.revapi1 = undefined;if (window.RS_MODULES.checkMinimal!==undefined) window.RS_MODULES.checkMinimal()}
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c8b5231 e-flex e-con-boxed e-con e-parent" data-id="c8b5231" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a297268 elementor-invisible elementor-widget elementor-widget-image" data-id="a297268" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;tada&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="264" height="300" src="https://alpha1personaltraining.com/wp-content/uploads/2023/09/specialty-evolution-360-copy-264x300.png" class="attachment-medium size-medium wp-image-47" alt="" srcset="https://alpha1personaltraining.com/wp-content/uploads/2023/09/specialty-evolution-360-copy-264x300.png 264w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/specialty-evolution-360-copy.png 500w" sizes="(max-width: 264px) 100vw, 264px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-b5a6b03 elementor-widget elementor-widget-text-editor" data-id="b5a6b03" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p><strong><span style="font-size: 18px;">Our Evolution 360 Program is our <span style="text-decoration: underline;">Signature Program</span> that focuses on accountability, structure, and success. This program keeps your workouts fun and exciting and your nutrition dialed in and focused. If you want to achieve your goals, this program will get you there!</span></strong></p>						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-466e3a7 e-con-full e-flex e-con e-parent" data-id="466e3a7" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-5a86898 e-con-full e-flex e-con e-child" data-id="5a86898" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-7f99bd3 elementor-widget elementor-widget-image" data-id="7f99bd3" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="150" height="150" src="https://alpha1personaltraining.com/wp-content/uploads/2023/09/fitness-1-150x150.png" class="attachment-thumbnail size-thumbnail wp-image-49" alt="" srcset="https://alpha1personaltraining.com/wp-content/uploads/2023/09/fitness-1-150x150.png 150w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/fitness-1-300x300.png 300w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/elementor/thumbs/fitness-1-qcqvb20pol7gdm5sxddritzofhet554vhw255u5mug.png 100w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/fitness-1.png 512w" sizes="(max-width: 150px) 100vw, 150px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-98bee49 elementor-widget elementor-widget-text-editor" data-id="98bee49" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>One-on-one personal training sessions are private, targeted, and customized to your goals with someone to hold you accountable.</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-bbd6a74 e-con-full e-flex e-con e-child" data-id="bbd6a74" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-e3d83b1 elementor-widget elementor-widget-image" data-id="e3d83b1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="150" height="150" src="https://alpha1personaltraining.com/wp-content/uploads/2023/09/Group-of-People-2-150x150.png" class="attachment-thumbnail size-thumbnail wp-image-50" alt="" srcset="https://alpha1personaltraining.com/wp-content/uploads/2023/09/Group-of-People-2-150x150.png 150w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/Group-of-People-2-300x300.png 300w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/elementor/thumbs/Group-of-People-2-qcqvb20pol7gdm5sxddritzofhet554vhw255u5mug.png 100w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/Group-of-People-2.png 512w" sizes="(max-width: 150px) 100vw, 150px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-c3603a5 elementor-widget elementor-widget-text-editor" data-id="c3603a5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Unlimited Semi-Private Personal Training sessions available 6 days a week, morning, afternoon, and evening. Results driven programming including Strength, Cardio, Hybrid, H.I.I.T. and Cored sessions.  No 2 workouts are alike!</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-93e848e e-con-full e-flex e-con e-child" data-id="93e848e" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-c6c86a1 elementor-widget elementor-widget-image" data-id="c6c86a1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="150" height="150" src="https://alpha1personaltraining.com/wp-content/uploads/2023/09/Nutrition-9-10-19-150x150.png" class="attachment-thumbnail size-thumbnail wp-image-52" alt="" srcset="https://alpha1personaltraining.com/wp-content/uploads/2023/09/Nutrition-9-10-19-150x150.png 150w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/Nutrition-9-10-19-300x300.png 300w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/elementor/thumbs/Nutrition-9-10-19-qcqvb2yjvf8qp84frvse3br50va6cu8lu0pmn448o8.png 100w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/Nutrition-9-10-19.png 512w" sizes="(max-width: 150px) 100vw, 150px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-a81aae2 elementor-widget elementor-widget-text-editor" data-id="a81aae2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Weekly nutrition coaching/planning to ensure you’re fueling your body right! The level of coaching will depend on each individual client’s needs. We don’t do diets… we do sustainable teaching.  We will teach you how to eat right and how to sustain it for the rest of your life!</p>						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-719bddc e-con-full e-flex e-con e-parent" data-id="719bddc" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-2bb0533 e-con-full e-flex e-con e-child" data-id="2bb0533" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-9bc97f8 elementor-widget elementor-widget-image" data-id="9bc97f8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="150" height="150" src="https://alpha1personaltraining.com/wp-content/uploads/2023/09/Hiring-2-150x150.png" class="attachment-thumbnail size-thumbnail wp-image-51" alt="" srcset="https://alpha1personaltraining.com/wp-content/uploads/2023/09/Hiring-2-150x150.png 150w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/Hiring-2-300x300.png 300w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/elementor/thumbs/Hiring-2-qcqvb2yjvf8qp84frvse3br50va6cu8lu0pmn448o8.png 100w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/Hiring-2.png 512w" sizes="(max-width: 150px) 100vw, 150px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-629441a elementor-widget elementor-widget-text-editor" data-id="629441a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Accountability is key if you truly want to be successful! Your trainer will be in constant communication with you to ensure you’re staying on track.</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-1e22c7c e-con-full e-flex e-con e-child" data-id="1e22c7c" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-2cc82b2 elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="2cc82b2" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;shake&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-lg" href="https://alpha1personaltraining.uplaunch.com/client_forms/2245" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">I WANT MORE INFORMATION!</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6dd4ee9 e-con-full e-flex e-con e-child" data-id="6dd4ee9" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-f532b8c elementor-widget elementor-widget-image" data-id="f532b8c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="150" height="150" src="https://alpha1personaltraining.com/wp-content/uploads/2023/10/FB-logo-2-red-150x150.png" class="attachment-thumbnail size-thumbnail wp-image-1183" alt="" srcset="https://alpha1personaltraining.com/wp-content/uploads/2023/10/FB-logo-2-red-150x150.png 150w, https://alpha1personaltraining.com/wp-content/uploads/2023/10/FB-logo-2-red-300x300.png 300w, https://alpha1personaltraining.com/wp-content/uploads/2023/10/FB-logo-2-red.png 512w" sizes="(max-width: 150px) 100vw, 150px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-f82e88d elementor-widget elementor-widget-text-editor" data-id="f82e88d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Private Facebook group for clients of this program only to talk about your successes, failures, and to cheer each other on as you all navigate your journey’s together!</p>						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2b0f63b e-flex e-con-boxed e-con e-parent" data-id="2b0f63b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-531d45d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="531d45d" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-bottom:0;flex-grow:1;border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-9e07254 e-flex e-con-boxed e-con e-parent" data-id="9e07254" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-d0f730f e-con-full e-flex e-con e-child" data-id="d0f730f" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-1118b79 elementor-widget elementor-widget-heading" data-id="1118b79" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Join our FREE Facebook Group for tips, tricks, and hacks on living a healthier life!</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1c2224a elementor-align-center elementor-widget elementor-widget-button" data-id="1c2224a" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.facebook.com/groups/398974968009140/" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Join Here</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-51e8d63 e-con-full e-flex e-con e-child" data-id="51e8d63" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-47f72f8 elementor-widget elementor-widget-heading" data-id="47f72f8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Check out our Blog to learn MORE about why a healthy lifestyle is SO important!</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4fff4d2 elementor-align-center elementor-widget elementor-widget-button" data-id="4fff4d2" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-md" href="https://alpha1personaltraining.com/blog/" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Click here</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-c1b6410 e-flex e-con-boxed e-con e-parent" data-id="c1b6410" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-00f4bfa elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="00f4bfa" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-b26777a e-flex e-con-boxed e-con e-parent" data-id="b26777a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-6de6937 e-con-full e-flex e-con e-child" data-id="6de6937" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-273f9de elementor-widget elementor-widget-heading" data-id="273f9de" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Looking for Chiropractic Care or Physical Therapy Services? </h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5473e34 elementor-align-center elementor-widget elementor-widget-button" data-id="5473e34" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-lg" href="http://www.alpha1personaltraining2.com/about-us#physiochiro">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Chiropractic Care/Physical Therapy Services</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-8ce8eca e-con-full e-flex e-con e-child" data-id="8ce8eca" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-ef27bb1 elementor-widget elementor-widget-image" data-id="ef27bb1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="1024" height="181" src="https://alpha1personaltraining.com/wp-content/uploads/2023/09/Alpha-Spine-Logo-PNG-1024x181.png" class="attachment-large size-large wp-image-62" alt="" srcset="https://alpha1personaltraining.com/wp-content/uploads/2023/09/Alpha-Spine-Logo-PNG-1024x181.png 1024w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/Alpha-Spine-Logo-PNG-300x53.png 300w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/Alpha-Spine-Logo-PNG-768x136.png 768w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/Alpha-Spine-Logo-PNG-1536x272.png 1536w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/Alpha-Spine-Logo-PNG.png 1781w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-eef4a1d elementor-widget elementor-widget-image" data-id="eef4a1d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="400" height="120" src="https://alpha1personaltraining.com/wp-content/uploads/2023/09/LIberty-PT.png" class="attachment-large size-large wp-image-61" alt="" srcset="https://alpha1personaltraining.com/wp-content/uploads/2023/09/LIberty-PT.png 400w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/LIberty-PT-300x90.png 300w" sizes="(max-width: 400px) 100vw, 400px" />															</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5487fc2 e-flex e-con-boxed e-con e-parent" data-id="5487fc2" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-9944d95 e-con-full e-flex e-con e-child" data-id="9944d95" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				</div>
+		<div class="elementor-element elementor-element-a6affcd e-con-full e-flex e-con e-child" data-id="a6affcd" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-aa263d7 elementor-widget elementor-widget-heading" data-id="aa263d7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Have a general question? Fill out this form, or click the chat bubble in the lower right corner! </h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-073d2f0 elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="073d2f0" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor-pro - v3.17.0 - 01-11-2023 */
+.elementor-button.elementor-hidden,.elementor-hidden{display:none}.e-form__step{width:100%}.e-form__step:not(.elementor-hidden){display:flex;flex-wrap:wrap}.e-form__buttons{flex-wrap:wrap}.e-form__buttons,.e-form__buttons__wrapper{display:flex}.e-form__indicators{display:flex;justify-content:space-between;align-items:center;flex-wrap:nowrap;font-size:13px;margin-bottom:var(--e-form-steps-indicators-spacing)}.e-form__indicators__indicator{display:flex;flex-direction:column;align-items:center;justify-content:center;flex-basis:0;padding:0 var(--e-form-steps-divider-gap)}.e-form__indicators__indicator__progress{width:100%;position:relative;background-color:var(--e-form-steps-indicator-progress-background-color);border-radius:var(--e-form-steps-indicator-progress-border-radius);overflow:hidden}.e-form__indicators__indicator__progress__meter{width:var(--e-form-steps-indicator-progress-meter-width,0);height:var(--e-form-steps-indicator-progress-height);line-height:var(--e-form-steps-indicator-progress-height);padding-right:15px;border-radius:var(--e-form-steps-indicator-progress-border-radius);background-color:var(--e-form-steps-indicator-progress-color);color:var(--e-form-steps-indicator-progress-meter-color);text-align:right;transition:width .1s linear}.e-form__indicators__indicator:first-child{padding-left:0}.e-form__indicators__indicator:last-child{padding-right:0}.e-form__indicators__indicator--state-inactive{color:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-inactive-secondary-color,#fff)}.e-form__indicators__indicator--state-inactive object,.e-form__indicators__indicator--state-inactive svg{fill:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-active{color:var(--e-form-steps-indicator-active-primary-color,#39b54a);border-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active object,.e-form__indicators__indicator--state-active svg{fill:var(--e-form-steps-indicator-active-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed{color:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a);background-color:initial}.e-form__indicators__indicator--state-completed object,.e-form__indicators__indicator--state-completed svg{fill:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator__icon{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);font-size:var(--e-form-steps-indicator-icon-size);border-width:1px;border-style:solid;display:flex;justify-content:center;align-items:center;overflow:hidden;margin-bottom:10px}.e-form__indicators__indicator__icon img,.e-form__indicators__indicator__icon object,.e-form__indicators__indicator__icon svg{width:var(--e-form-steps-indicator-icon-size);height:auto}.e-form__indicators__indicator__icon .e-font-icon-svg{height:1em}.e-form__indicators__indicator__number{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);border-width:1px;border-style:solid;display:flex;justify-content:center;align-items:center;margin-bottom:10px}.e-form__indicators__indicator--shape-circle{border-radius:50%}.e-form__indicators__indicator--shape-square{border-radius:0}.e-form__indicators__indicator--shape-rounded{border-radius:5px}.e-form__indicators__indicator--shape-none{border:0}.e-form__indicators__indicator__label{text-align:center}.e-form__indicators__indicator__separator{width:100%;height:var(--e-form-steps-divider-width);background-color:#babfc5}.e-form__indicators--type-icon,.e-form__indicators--type-icon_text,.e-form__indicators--type-number,.e-form__indicators--type-number_text{align-items:flex-start}.e-form__indicators--type-icon .e-form__indicators__indicator__separator,.e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,.e-form__indicators--type-number .e-form__indicators__indicator__separator,.e-form__indicators--type-number_text .e-form__indicators__indicator__separator{margin-top:calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)}.elementor-field-type-hidden{display:none}.elementor-field-type-html{display:inline-block}.elementor-login .elementor-lost-password,.elementor-login .elementor-remember-me{font-size:.85em}.elementor-field-type-recaptcha_v3 .elementor-field-label{display:none}.elementor-field-type-recaptcha_v3 .grecaptcha-badge{z-index:1}.elementor-button .elementor-form-spinner{order:3}.elementor-form .elementor-button>span{display:flex;justify-content:center;align-items:center}.elementor-form .elementor-button .elementor-button-text{white-space:normal;flex-grow:0}.elementor-form .elementor-button svg{height:auto}.elementor-form .elementor-button .e-font-icon-svg{height:1em}.elementor-select-wrapper .select-caret-down-wrapper{position:absolute;top:50%;transform:translateY(-50%);inset-inline-end:10px;pointer-events:none;font-size:11px}.elementor-select-wrapper .select-caret-down-wrapper svg{display:unset;width:1em;aspect-ratio:unset;fill:currentColor}.elementor-select-wrapper .select-caret-down-wrapper i{font-size:19px;line-height:2}.elementor-select-wrapper.remove-before:before{content:""!important}</style>		<form class="elementor-form" method="post" name="New Form">
+			<input type="hidden" name="post_id" value="2"/>
+			<input type="hidden" name="form_id" value="073d2f0"/>
+			<input type="hidden" name="referer_title" value="Home Page - Alpha1 Personal Training" />
+
+							<input type="hidden" name="queried_id" value="2"/>
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-above">
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100 elementor-field-required elementor-mark-required">
+												<label for="form-field-name" class="elementor-field-label">
+								Full Name							</label>
+														<input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Full Name" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required elementor-mark-required">
+												<label for="form-field-email" class="elementor-field-label">
+								Email							</label>
+														<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Email" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_f1d9927 elementor-col-100 elementor-field-required elementor-mark-required">
+												<label for="form-field-field_f1d9927" class="elementor-field-label">
+								Phone Number							</label>
+														<input size="1" type="text" name="form_fields[field_f1d9927]" id="form-field-field_f1d9927" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Phone Number" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100 elementor-field-required elementor-mark-required">
+												<label for="form-field-message" class="elementor-field-label">
+								Message							</label>
+						<textarea class="elementor-field-textual elementor-field  elementor-size-sm" name="form_fields[message]" id="form-field-message" rows="4" placeholder="Message" required="required" aria-required="true"></textarea>				</div>
+								<div class="elementor-field-type-recaptcha_v3 elementor-field-group elementor-column elementor-field-group-field_6f14214 elementor-col-100 recaptcha_v3-inline">
+					<div class="elementor-field" id="form-field-field_6f14214"><div class="elementor-g-recaptcha" data-sitekey="6Lch4QIpAAAAAIlzKfhk3IPb-R5qW7VcpPsljA7P" data-type="v3" data-action="Form" data-badge="inline" data-size="invisible"></div></div>				</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<button type="submit" class="elementor-button elementor-size-sm">
+						<span >
+															<span class=" elementor-button-icon">
+																										</span>
+																						<span class="elementor-button-text">Submit</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2fbd322 e-con-full e-flex e-con e-child" data-id="2fbd322" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-696416f e-con-full e-flex e-con e-parent" data-id="696416f" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;}" data-core-v316-plus="true">
+				<div class="elementor-element elementor-element-c79e24b elementor-align-left elementor-widget elementor-widget-button" data-id="c79e24b" data-element_type="widget" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;sticky&quot;:&quot;bottom&quot;,&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#" id="top">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Back to Top</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-fd4befc e-flex e-con-boxed e-con e-parent" data-id="fd4befc" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+					</div>
+				</div>
+							</div>
+		
+		<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
+			<div class='footer-width-fixer'>		<div data-elementor-type="wp-post" data-elementor-id="208" class="elementor elementor-208" data-elementor-post-type="elementor-hf">
+							<div class="elementor-element elementor-element-454536d e-con-full e-flex e-con e-parent" data-id="454536d" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;bottom&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-11ced10 e-con-full e-flex e-con e-child" data-id="11ced10" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-ba5cd5b elementor-widget elementor-widget-heading" data-id="ba5cd5b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default">Site Photos By:</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-10ceb29 elementor-widget elementor-widget-image" data-id="10ceb29" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://studiotwelve52.com/">
+							<img width="368" height="147" src="https://alpha1personaltraining.com/wp-content/uploads/2023/09/mainlogo2-copy-4.png" class="attachment-large size-large wp-image-583" alt="" loading="lazy" srcset="https://alpha1personaltraining.com/wp-content/uploads/2023/09/mainlogo2-copy-4.png 368w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/mainlogo2-copy-4-300x120.png 300w" sizes="(max-width: 368px) 100vw, 368px" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-b65f329 elementor-widget elementor-widget-image" data-id="b65f329" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://www.elsiebel.com/">
+							<img width="1024" height="439" src="https://alpha1personaltraining.com/wp-content/uploads/2023/09/elsiebel_sticker-1024x439.png" class="attachment-large size-large wp-image-582" alt="" loading="lazy" srcset="https://alpha1personaltraining.com/wp-content/uploads/2023/09/elsiebel_sticker-1024x439.png 1024w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/elsiebel_sticker-300x129.png 300w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/elsiebel_sticker-768x329.png 768w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/elsiebel_sticker-1536x658.png 1536w, https://alpha1personaltraining.com/wp-content/uploads/2023/09/elsiebel_sticker-2048x878.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-de2f9d1 e-con-full e-flex e-con e-child" data-id="de2f9d1" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-6e04fdf elementor-widget elementor-widget-spacer" data-id="6e04fdf" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container{height:100%;width:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}.e-con-inner>.elementor-widget-spacer.elementor-widget-empty,.e-con>.elementor-widget-spacer.elementor-widget-empty{position:relative;min-height:22px;min-width:22px}.e-con-inner>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon,.e-con>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;padding:0;width:22px;height:22px}</style>		<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-88dbb92 elementor-widget elementor-widget-heading" data-id="88dbb92" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Corporate Partnerships</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3f781c5 elementor-widget elementor-widget-heading" data-id="3f781c5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Athletic Partnerships</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-780fa3a elementor-widget elementor-widget-heading" data-id="780fa3a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://alpha1personaltraining.com/?page_id=3">Privacy Policy</a></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-917c6b1 elementor-widget elementor-widget-heading" data-id="917c6b1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://alpha1personaltraining.com/behind-the-scenes/">Behind the Scenes</a></h2>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-22a3579 e-con-full e-flex e-con e-child" data-id="22a3579" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-51df9fe elementor-widget elementor-widget-heading" data-id="51df9fe" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Related Apps</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-86d3fac elementor-widget elementor-widget-heading" data-id="86d3fac" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://www.myzone.org/app-0">MyZone</a></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e6823af elementor-widget elementor-widget-heading" data-id="e6823af" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">ZenPlanner</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-316d6ca elementor-widget elementor-widget-heading" data-id="316d6ca" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://www.snapfitness.com/us/snap-app">Snap App</a></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-0efcb29 elementor-widget elementor-widget-heading" data-id="0efcb29" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">My Fitness Pal</h2>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-5ce3b29 e-con-full e-flex e-con e-child" data-id="5ce3b29" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-cc816bb elementor-widget elementor-widget-heading" data-id="cc816bb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-medium">Staffed Hours</h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-cafc3eb elementor-widget elementor-widget-text-editor" data-id="cafc3eb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>Monday: 11-7</strong><br /><strong>Tuesday: 11-6</strong><br /><strong>Wednesday: 11-6</strong><br /><strong>Thursday: 11-6</strong><br /><strong>Friday: 11-4</strong><br /><strong>Saturday: 9-1</strong></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-170c2d9 elementor-widget elementor-widget-heading" data-id="170c2d9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h5 class="elementor-heading-title elementor-size-default"><a href="https://alpha1personaltraining.com/staff-only/">Staff Only</a></h5>		</div>
+				</div>
+				</div>
+				</div>
+							</div>
+		</div>		</footer>
+	</div><!-- #page -->
+
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400%2C700%7CRoboto:400&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+<script>
+		if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}
+</script>
+<link rel='stylesheet' id='e-animations-css' href='https://alpha1personaltraining.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.17.3' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='https://alpha1personaltraining.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.6.16' media='all' />
+<style id='rs-plugin-settings-inline-css'>
+		.rev_slider .hades.tparrows{background-color:rgba(0,0,0,0.0)}.rev_slider .ares{height:21px}.rev_slider .ares .tp-bullet{width:15px;  height:15px}.rev_slider .ares .tp-bullet.selected{width:21px;  height:21px;  margin-top:-3px;  margin-left:-3px}.rev_slider .ares .tp-bullet .tp-bullet-title{display:none}
+</style>
+<script id="wp-block-template-skip-link-js-after">
+	( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
+
+		// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
+
+		/*
+		 * Get the site wrapper.
+		 * The skip-link will be injected in the beginning of it.
+		 */
+		sibling = document.querySelector( '.wp-site-blocks' );
+
+		// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
+
+		// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
+
+		// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerHTML = 'Skip to content';
+
+		// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );
+	
+</script>
+<script src="https://alpha1personaltraining.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.16" defer async id="tp-tools-js"></script>
+<script src="https://alpha1personaltraining.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.16" defer async id="revmin-js"></script>
+<script id="eael-general-js-extra">
+var localize = {"ajaxurl":"https:\/\/alpha1personaltraining.com\/wp-admin\/admin-ajax.php","nonce":"9a9a86348a","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"https:\/\/alpha1personaltraining.com\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
+</script>
+<script src="https://alpha1personaltraining.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.8.18" id="eael-general-js"></script>
+<script src="https://alpha1personaltraining.com/wp-includes/js/comment-reply.min.js?ver=6.4.1" id="comment-reply-js" async data-wp-strategy="async"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=explicit&amp;ver=3.17.1" id="elementor-recaptcha_v3-api-js"></script>
+<script src="https://alpha1personaltraining.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.17.1" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://alpha1personaltraining.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.17.3" id="elementor-webpack-runtime-js"></script>
+<script src="https://alpha1personaltraining.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.17.3" id="elementor-frontend-modules-js"></script>
+<script src="https://alpha1personaltraining.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script src="https://alpha1personaltraining.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script src="https://alpha1personaltraining.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script src="https://alpha1personaltraining.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
+<script src="https://alpha1personaltraining.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/alpha1personaltraining.com\/wp-admin\/admin-ajax.php","nonce":"74cc10bcb5","urls":{"assets":"https:\/\/alpha1personaltraining.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/alpha1personaltraining.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/alpha1personaltraining.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src="https://alpha1personaltraining.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.17.1" id="elementor-pro-frontend-js"></script>
+<script src="https://alpha1personaltraining.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script src="https://alpha1personaltraining.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.17.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"theme_builder_v2":true,"landing-pages":true,"e_global_styleguide":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/alpha1personaltraining.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":2,"title":"Home%20Page%20-%20Alpha1%20Personal%20Training","excerpt":"","featuredImage":false}};
+</script>
+<script src="https://alpha1personaltraining.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.17.3" id="elementor-frontend-js"></script>
+<script src="https://alpha1personaltraining.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.17.1" id="pro-elements-handlers-js"></script>
+<script src="https://alpha1personaltraining.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.17.1" id="e-sticky-js"></script>
+<script src="https://alpha1personaltraining.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script id="wp-util-js-extra">
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+</script>
+<script src="https://alpha1personaltraining.com/wp-includes/js/wp-util.min.js?ver=6.4.1" id="wp-util-js"></script>
+<script id="wpforms-elementor-js-extra">
+var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};
+</script>
+<script src="https://alpha1personaltraining.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.4.1" id="wpforms-elementor-js"></script>
+<script id="rs-initialisation-scripts">
+		var	tpj = jQuery;
+
+		var	revapi1;
+
+		if(window.RS_MODULES === undefined) window.RS_MODULES = {};
+		if(RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+		RS_MODULES.modules["revslider11"] = {once: RS_MODULES.modules["revslider11"]!==undefined ? RS_MODULES.modules["revslider11"].once : undefined, init:function() {
+			window.revapi1 = window.revapi1===undefined || window.revapi1===null || window.revapi1.length===0  ? document.getElementById("rev_slider_1_1") : window.revapi1;
+			if(window.revapi1 === null || window.revapi1 === undefined || window.revapi1.length==0) { window.revapi1initTry = window.revapi1initTry ===undefined ? 0 : window.revapi1initTry+1; if (window.revapi1initTry<20) requestAnimationFrame(function() {RS_MODULES.modules["revslider11"].init()}); return;}
+			window.revapi1 = jQuery(window.revapi1);
+			if(window.revapi1.revolution==undefined){ revslider_showDoubleJqueryError("rev_slider_1_1"); return;}
+			revapi1.revolutionInit({
+					revapi:"revapi1",
+					sliderType:"hero",
+					DPR:"dpr",
+					sliderLayout:"fullscreen",
+					visibilityLevels:"1240,1240,1240,480",
+					gridwidth:"1240,1240,1240,480",
+					gridheight:"581,581,581,300",
+					lazyType:"smart",
+					perspective:600,
+					perspectiveType:"local",
+					editorheight:"581,768,960,300",
+					responsiveLevels:"1240,1240,1240,480",
+					fullScreenOffsetContainer:"#wpadminbar, .sh-window-line.line-bottom, .sh-window-line.line-top",
+					progressBar:{disableProgressBar:true},
+					navigation: {
+						onHoverStop:false
+					},
+					parallax: {
+						levels:[5,10,15,20,25,30,35,40,45,46,47,48,49,50,51,55],
+						type:"mouse"
+					},
+					viewPort: {
+						global:true,
+						globalDist:"-200px",
+						enable:false,
+						visible_area:"20%"
+					},
+					fallbacks: {
+						allowHTML5AutoPlayOnAndroid:true
+					},
+			});
+			
+		}} // End of RevInitScript
+
+		if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
+	</script>
+</body>
+</html> 
