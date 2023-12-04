@@ -1,0 +1,35 @@
+
+        #VG_OVERLAY_CONTAINER {
+            border-radius: 1rem;
+            overflow: hidden;
+            width: 800px !important;
+            height: 700px !important;
+        }
+
+        .live-chat-bot .site-logo #VG_OVERLAY_CONTAINER #vg-theme-container .vg-bg-gradient-to-b,
+        .live-chat-bot .site-logo #VG_OVERLAY_CONTAINER #vg-theme-container #vg-mother-container {
+            background: #fff0 !important;
+        }
+
+        #VG_OVERLAY_CONTAINER .vg-will-change-auto {
+            color: #fff !important;
+        }
+
+        #VG_OVERLAY_CONTAINER .vg-footer-input-wrapper {
+            background: #a9a9a99c !important;
+        }
+
+        @media (max-width: 768px) {
+
+            #VG_OVERLAY_CONTAINER {
+                width: 335px !important;
+                height: 500px !important;
+            }
+
+            .site-logo {
+                flex-direction: column;
+                gap: 2rem;
+            }
+
+        }
+    
