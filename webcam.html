@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webcam Capture</title>
+</head>
+<body>
+
+<video id="video" width="640" height="480" autoplay></video>
+<button id="capture">Capture</button>
+<canvas id="canvas" width="640" height="480"></canvas>
+
+<script>
+    const video = document.getElementById('video');
+    const canvas = document.getElementById('canvas');
+    const context = canvas.getContext('2d');
+    const captureButton = document.getElementById('capture');
+
+    // Get access to the camera
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
+            video.srcObject = stream;
+            video.play();
+        });
+    }
+
+    // Trigger photo take
+    captureButton.addEventListener('click', function() {
+        context.drawImage(video, 0, 0, 640, 480);
+        const image_data_url = canvas.toDataURL('image/jpeg');
+
+        // Here you can handle the image_data_url, for example sending it to the server
+        // or displaying it somewhere in the page.
+    });
+</script>
+
+</body>
+</html>
 
