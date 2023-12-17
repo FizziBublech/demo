@@ -6,16 +6,12 @@
 <body>
 
 <video id="video" width="640" height="480" autoplay></video>
-<button id="capture">Capture</button>
 <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
-<div id="serverResponse"></div> <!-- Area to display server response -->
 
 <script>
     const video = document.getElementById('video');
     const canvas = document.getElementById('canvas');
     const context = canvas.getContext('2d');
-    const captureButton = document.getElementById('capture');
-    const serverResponseElement = document.getElementById('serverResponse');
 
     // Get access to the camera
     if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
@@ -25,9 +21,16 @@
         });
     }
 
+    // Function to capture image and send to server
+    function captureAndSend() {
+        context.drawImage(video, 0, 0, 640, 480);
+        const image_data_url = canvas.toDataURL('image/jpeg');
+        sendImageToServer(image_data_url);
+    }
+
     // Function to send image to server
     function sendImageToServer(imageData) {
-        fetch('https://gptvchat.alexanderprikas.repl.co/analyze-image', { // Replace with your Replit URL
+        fetch('https://your-server-url/analyze-image', { // Replace with your server URL
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -37,25 +40,15 @@
         .then(response => response.json())
         .then(data => {
             console.log('Response from server:', data);
-            displayServerResponse(data); // Displaying the response on the page
+            // Handle the server response here
         })
         .catch(error => {
             console.error('Error:', error);
-            displayServerResponse({ message: 'Error communicating with the server.' }); // Displaying error message
         });
     }
 
-    // Capture and send image on button click
-    captureButton.addEventListener('click', function() {
-        context.drawImage(video, 0, 0, 640, 480);
-        const image_data_url = canvas.toDataURL('image/jpeg');
-        sendImageToServer(image_data_url);
-    });
-
-    // Function to display server response
-    function displayServerResponse(response) {
-        serverResponseElement.innerText = 'Server Response: ' + JSON.stringify(response);
-    }
+    // Set interval to capture and send image every 5 seconds
+    setInterval(captureAndSend, 5000);
 </script>
 
 </body>
