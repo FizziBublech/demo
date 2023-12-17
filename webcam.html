@@ -7,11 +7,13 @@
 
 <video id="video" width="640" height="480" autoplay></video>
 <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+<div id="responseDisplay"></div> <!-- Element to display the server response -->
 
 <script>
     const video = document.getElementById('video');
     const canvas = document.getElementById('canvas');
     const context = canvas.getContext('2d');
+    const responseDisplay = document.getElementById('responseDisplay'); // Get the response display element
 
     // Get access to the camera
     if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
@@ -30,7 +32,7 @@
 
     // Function to send image to server
     function sendImageToServer(imageData) {
-        fetch('https://gptvchat.alexanderprikas.repl.co/analyze-image', { // Replace with your server URL
+        fetch('https://your-server-url/analyze-image', { // Replace with your server URL
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -39,12 +41,17 @@
         })
         .then(response => response.json())
         .then(data => {
-            console.log('Response from server:', data);
-            // Handle the server response here
+            displayServerResponse(data); // Display the server response
         })
         .catch(error => {
             console.error('Error:', error);
+            displayServerResponse({ message: 'Error communicating with the server.' });
         });
+    }
+
+    // Function to display server response
+    function displayServerResponse(response) {
+        responseDisplay.innerText = 'Server Response: ' + JSON.stringify(response);
     }
 
     // Set interval to capture and send image every 5 seconds
