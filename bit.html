@@ -8,10 +8,14 @@
     <link rel="icon" type="image/x-icon" href="./images/favicon.png">
     <style>
     body {
+        height: 100%; /* Ensures the minimum height is the full viewport height */
+        min-height: 100vh; /* This is the minimum height */
         margin: 0;
+        padding: 0; /* Removes the default margin and padding */
         background: linear-gradient(180deg, rgba(16, 18, 23, 0.8) 0%, rgba(37, 25, 24, 0.8) 100%) !important;
         background-repeat: no-repeat !important;
-        background-size: 100% 100% !important;
+        background-size: cover !important; /* Ensures the background covers the entire element */
+        background-attachment: fixed; /* Optional: Makes the background fixed during scroll */
         }
 
     
