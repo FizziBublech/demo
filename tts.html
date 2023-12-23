@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Voiceglow HTML Sample</title>
+    </head>
+    <body>
+        <h1>Voiceglow HTML Sample</h1>
+        <p>This is basically your website here :)</p>
+        <p>Did you know that the strongest muscle in the body is the tongue?</p>
+
+       <button id="speechToTextButton">Speak</button>
+<!-- Add a text field to display the speech-to-text result -->
+<input type="text" id="speechResult" placeholder="Speech will appear here">
+
+
+<div style="width: 0; height: 0;" id="VG_OVERLAY_CONTAINER">
+    <!-- Here is where Voiceglow renders the widget. -->
+    <!-- Set render to 'full-width' then adjust the width and height to 500px (for example) to render the chatbot itself without the popup. -->
+</div>
+
+<!-- Remove 'defer' if you want widget to load faster (Will affect website loading) -->
+<script defer>
+(function() {
+    document.querySelector('html').style.fontSize = "16px"; // 16px is the default value, this is needed now for fully eliminating spacing issues.
+    window.VG_CONFIG = {
+        ID: "15aqom7q7",
+        region: 'na', // 'eu' or 'na'corresponding to Europe and North America
+        render: 'popup', // popup or full-width
+        stylesheets: [
+            // Base Voiceglow CSS
+            "https://storage.googleapis.com/speakwiz-app.appspot.com/vg_live_build/styles.css",
+            // Add your custom css stylesheets, Can also add relative URL ('/public/your-file.css)
+        ],
+    }
+    var VG_SCRIPT = document.createElement("script");
+    VG_SCRIPT.src = "https://storage.googleapis.com/speakwiz-app.appspot.com/vg_live_build/vg_bundle.js";
+    document.body.appendChild(VG_SCRIPT);
+})()
+</script>
+
+      <script>const button = document.getElementById('speechToTextButton');
+const resultField = document.getElementById('speechResult');
+const recognition = new webkitSpeechRecognition();
+
+recognition.continuous = true; // Set this to false if you want to capture only a single phrase
+
+button.onclick = () => {
+    recognition.start(); // Start the speech recognition
+};
+
+recognition.onresult = (event) => {
+    const speechToText = event.results[0][0].transcript;
+    resultField.value = speechToText; // Put the speech-to-text result into the text field
+};
+
+recognition.onerror = (event) => {
+    console.error('Speech recognition error', event.error); // Log or handle errors
+};
+</script>
+
+      
+    </body>
+</html>    
