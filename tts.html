@@ -40,25 +40,46 @@
 })()
 </script>
 
-      <script>const button = document.getElementById('speechToTextButton');
+      <script>
+const button = document.getElementById('speechToTextButton');
 const resultField = document.getElementById('speechResult');
-const recognition = new webkitSpeechRecognition();
 
-recognition.continuous = true; // Set this to false if you want to capture only a single phrase
+// Check if the browser supports speech recognition
+if ('webkitSpeechRecognition' in window) {
+    const recognition = new webkitSpeechRecognition();
+    recognition.continuous = true;
 
-button.onclick = () => {
-    recognition.start(); // Start the speech recognition
-};
+    button.onclick = () => {
+        // Start or stop recognition based on its current state
+        if (recognition && recognition.abort) {
+            recognition.abort();
+            button.textContent = 'Speak';
+        } else {
+            recognition.start();
+            button.textContent = 'Stop Listening';
+        }
+    };
 
-recognition.onresult = (event) => {
-    const speechToText = event.results[0][0].transcript;
-    resultField.value = speechToText; // Put the speech-to-text result into the text field
-};
+    recognition.onresult = (event) => {
+        const speechToText = event.results[event.resultIndex][0].transcript;
+        resultField.value = speechToText;
+    };
 
-recognition.onerror = (event) => {
-    console.error('Speech recognition error', event.error); // Log or handle errors
-};
+    recognition.onerror = (event) => {
+        console.error('Speech recognition error', event.error);
+        button.textContent = 'Speak';
+    };
+
+    recognition.onend = () => {
+        // Reset the button when the recognition ends
+        button.textContent = 'Speak';
+    };
+} else {
+    button.textContent = 'Speech recognition not supported';
+    button.disabled = true;
+}
 </script>
+
 
       
     </body>
