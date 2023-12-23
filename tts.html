@@ -48,6 +48,7 @@ const resultField = document.getElementById('speechResult');
 if ('webkitSpeechRecognition' in window) {
     const recognition = new webkitSpeechRecognition();
     recognition.continuous = true;
+    recognition.lang = 'en-US'; // Sets the language to English (United States)
 
     button.onclick = () => {
         // Start or stop recognition based on its current state
