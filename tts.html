@@ -74,9 +74,22 @@
       recognition.start();
 
       recognition.onresult = function (e) {
-        document.getElementById('transcript').value = e.results[0][0].transcript;
+        var text = e.results[0][0].transcript;
+
+        // Target the Voiceglow chat widget's input field
+        var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
+        if (chatInput) {
+          chatInput.value = text;
+
+          // Simulate an Enter keypress to send the message
+          // This part might need adjustment based on how Voiceglow processes input
+          var event = new KeyboardEvent('keypress', {
+            'key': 'Enter'
+          });
+          chatInput.dispatchEvent(event);
+        }
+
         recognition.stop();
-        document.getElementById('labnol').submit();
       };
 
       recognition.onerror = function (e) {
@@ -85,6 +98,7 @@
     }
   }
 </script>
+
 
       
     </body>
