@@ -4,15 +4,37 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Voiceglow HTML Sample</title>
+        <!-- CSS Styles -->
+<style>
+  .speech {
+    border: 1px solid #ddd;
+    width: 300px;
+    padding: 0;
+    margin: 0;
+  }
+  .speech input {
+    border: 0;
+    width: 240px;
+    display: inline-block;
+    height: 30px;
+  }
+  .speech img {
+    float: right;
+    width: 40px;
+  }
+</style>
     </head>
     <body>
         <h1>Voiceglow HTML Sample</h1>
         <p>This is basically your website here :)</p>
         <p>Did you know that the strongest muscle in the body is the tongue?</p>
 
-       <button id="speechToTextButton">Speak</button>
-<!-- Add a text field to display the speech-to-text result -->
-<input type="text" id="speechResult" placeholder="Speech will appear here">
+<form id="labnol" method="get" action="https://www.google.com/search">
+  <div class="speech">
+    <input type="text" name="q" id="transcript" placeholder="Speak" />
+    <img onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif" />
+  </div>
+</form>
 
 
 <div style="width: 0; height: 0;" id="VG_OVERLAY_CONTAINER">
@@ -40,28 +62,29 @@
 })()
 </script>
 
-          <script>
-const button = document.getElementById('speechToTextButton');
-const resultField = document.getElementById('speechResult');
-const recognition = new webkitSpeechRecognition();
+<script>
+  function startDictation() {
+    if (window.hasOwnProperty('webkitSpeechRecognition')) {
+      var recognition = new webkitSpeechRecognition();
 
-recognition.continuous = true; // Set this to false if you want to capture only a single phrase
+      recognition.continuous = false;
+      recognition.interimResults = false;
 
-button.onclick = () => {
-    recognition.start(); // Start the speech recognition
-};
+      recognition.lang = 'en-US';
+      recognition.start();
 
-recognition.onresult = (event) => {
-    const speechToText = event.results[0][0].transcript;
-    resultField.value = speechToText; // Put the speech-to-text result into the text field
-};
+      recognition.onresult = function (e) {
+        document.getElementById('transcript').value = e.results[0][0].transcript;
+        recognition.stop();
+        document.getElementById('labnol').submit();
+      };
 
-recognition.onerror = (event) => {
-    console.error('Speech recognition error', event.error); // Log or handle errors
-};
-
-        </script>
-
+      recognition.onerror = function (e) {
+        recognition.stop();
+      };
+    }
+  }
+</script>
 
       
     </body>
