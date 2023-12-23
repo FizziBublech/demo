@@ -1,105 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Voiceglow HTML Sample</title>
-        <!-- CSS Styles -->
-<style>
-  .speech {
-    border: 1px solid #ddd;
-    width: 300px;
-    padding: 0;
-    margin: 0;
-  }
-  .speech input {
-    border: 0;
-    width: 240px;
-    display: inline-block;
-    height: 30px;
-  }
-  .speech img {
-    float: right;
-    width: 40px;
-  }
-</style>
-    </head>
-    <body>
-        <h1>Voiceglow HTML Sample</h1>
-        <p>This is basically your website here :)</p>
-        <p>Did you know that the strongest muscle in the body is the tongue?</p>
-
-<form id="labnol" method="get" action="https://www.google.com/search">
-  <div class="speech">
-    <input type="text" name="q" id="transcript" placeholder="Speak" />
-    <img onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif" />
-  </div>
-</form>
-
-
-<div style="width: 0; height: 0;" id="VG_OVERLAY_CONTAINER">
-    <!-- Here is where Voiceglow renders the widget. -->
-    <!-- Set render to 'full-width' then adjust the width and height to 500px (for example) to render the chatbot itself without the popup. -->
-</div>
-
-<!-- Remove 'defer' if you want widget to load faster (Will affect website loading) -->
-<script defer>
-(function() {
-    document.querySelector('html').style.fontSize = "16px"; // 16px is the default value, this is needed now for fully eliminating spacing issues.
-    window.VG_CONFIG = {
-        ID: "15aqom7q7",
-        region: 'na', // 'eu' or 'na'corresponding to Europe and North America
-        render: 'popup', // popup or full-width
-        stylesheets: [
-            // Base Voiceglow CSS
-            "https://storage.googleapis.com/speakwiz-app.appspot.com/vg_live_build/styles.css",
-            // Add your custom css stylesheets, Can also add relative URL ('/public/your-file.css)
-        ],
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voiceglow HTML Sample</title>
+    <!-- CSS Styles -->
+    <style>
+    .speech {
+        border: 1px solid #ddd;
+        width: 300px;
+        padding: 0;
+        margin: 0;
     }
-    var VG_SCRIPT = document.createElement("script");
-    VG_SCRIPT.src = "https://storage.googleapis.com/speakwiz-app.appspot.com/vg_live_build/vg_bundle.js";
-    document.body.appendChild(VG_SCRIPT);
-})()
-</script>
+    .speech input {
+        border: 0;
+        width: 240px;
+        display: inline-block;
+        height: 30px;
+    }
+    .speech img {
+        float: right;
+        width: 40px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Voiceglow HTML Sample</h1>
+    <p>This is basically your website here :)</p>
+    <p>Did you know that the strongest muscle in the body is the tongue?</p>
 
-<script>
-  function startDictation() {
-    if (window.hasOwnProperty('webkitSpeechRecognition')) {
-      var recognition = new webkitSpeechRecognition();
+    <form id="labnol" method="get" action="https://www.google.com/search">
+    <div class="speech">
+        <input type="text" name="q" id="transcript" placeholder="Speak" />
+        <img onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif" />
+    </div>
+    </form>
 
-      recognition.continuous = false;
-      recognition.interimResults = false;
+    <div style="width: 0; height: 0;" id="VG_OVERLAY_CONTAINER">
+        <!-- Here is where Voiceglow renders the widget. -->
+        <!-- Set render to 'full-width' then adjust the width and height to 500px (for example) to render the chatbot itself without the popup. -->
+    </div>
 
-      recognition.lang = 'en-US';
-      recognition.start();
-
-      recognition.onresult = function (e) {
-        var text = e.results[0][0].transcript;
-
-        // Target the Voiceglow chat widget's input field
-        var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
-        if (chatInput) {
-          chatInput.value = text;
-
-          // Simulate an Enter keypress to send the message
-          // This part might need adjustment based on how Voiceglow processes input
-          var event = new KeyboardEvent('keypress', {
-            'key': 'Enter'
-          });
-          chatInput.dispatchEvent(event);
+    <!-- Remove 'defer' if you want widget to load faster (Will affect website loading) -->
+    <script defer>
+    (function() {
+        document.querySelector('html').style.fontSize = "16px"; // 16px is the default value, this is needed now for fully eliminating spacing issues.
+        window.VG_CONFIG = {
+            ID: "15aqom7q7",
+            region: 'na', // 'eu' or 'na' corresponding to Europe and North America
+            render: 'popup', // popup or full-width
+            stylesheets: [
+                // Base Voiceglow CSS
+                "https://storage.googleapis.com/speakwiz-app.appspot.com/vg_live_build/styles.css",
+                // Add your custom css stylesheets, Can also add relative URL ('/public/your-file.css)
+            ],
         }
+        var VG_SCRIPT = document.createElement("script");
+        VG_SCRIPT.src = "https://storage.googleapis.com/speakwiz-app.appspot.com/vg_live_build/vg_bundle.js";
+        document.body.appendChild(VG_SCRIPT);
+    })()
+    </script>
 
-        recognition.stop();
-      };
+    <script>
+    function startDictation() {
+        if (window.hasOwnProperty('webkitSpeechRecognition')) {
+            var recognition = new webkitSpeechRecognition();
 
-      recognition.onerror = function (e) {
-        recognition.stop();
-      };
+            recognition.continuous = false;
+            recognition.interimResults = false;
+
+            recognition.lang = 'en-US';
+            recognition.start();
+
+            recognition.onresult = function (e) {
+                var text = e.results[0][0].transcript;
+
+                // Target the Voiceglow chat widget's input field
+                var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
+                if (chatInput) {
+                    chatInput.value = text;
+
+                    // Simulate an Enter keypress to send the message
+                    var event = new KeyboardEvent('keypress', {
+                        'key': 'Enter'
+                    });
+                    chatInput.dispatchEvent(event);
+                }
+
+                recognition.stop();
+            };
+
+            recognition.onerror = function (e) {
+                recognition.stop();
+            };
+        }
     }
-  }
-</script>
 
+    // This function adds the microphone button to the widget
+    function addMicrophoneButton() {
+        // Create a new button element
+        var micButton = document.createElement('button');
+        micButton.innerHTML = '🎤'; // Using a microphone emoji as the button content
+        micButton.onclick = startDictation; // Set the onclick event to startDictation
 
-      
-    </body>
-</html>    
+        // Add classes to match the existing buttons' styling
+        micButton.className = 'vg-z-0 vg-group vg-relative vg-box-border vg-appearance-none vg-outline-none vg-select-none vg-whitespace-nowrap vg-font-normal vg-subpixel-antialiased vg-overflow-hidden vg-tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 vg-text-small vg-gap-unit-2 vg-rounded-medium vg-px-unit-0 vg-!gap-unit-0 vg-data-[pressed=true]:scale-[0.97] vg-transition-transform-colors-opacity vg-motion-reduce:transition-none vg-bg-transparent vg-text-primary vg-data-[hover=true]:bg-primary/20 vg-min-w-unit-10 vg-w-unit-10 vg-h-unit-10 vg-footer-icon vg-flex vg-justify-center vg-items-center vg-mr-unit-1 vg-mt-unit-1';
+
+        // Append the button to the chat widget's action area
+        var actionContainer = document.querySelector('.vg-footer-icons-container');
+        if (actionContainer) {
+            actionContainer.appendChild(micButton);
+        } else {
+            console.error('Chat widget action container not found');
+        }
+    }
+
+    // It's important to ensure that the chat widget is loaded before trying to add the microphone button
+    // If the widget provides an event or callback when it's loaded, use that to call addMicrophoneButton
+    // Otherwise, you might need to use a timeout or another method to delay the addition of the button
+    window.addEventListener('load', function() {
+        // Delay the addition of the microphone button to ensure the widget is loaded
+        setTimeout(addMicrophoneButton, 5000); // 5 seconds for example, adjust as needed
+    });
+    </script>
+</body>
+</html>
