@@ -96,6 +96,16 @@
         }
     }
 
+          window.addEventListener('keydown', function(event) {
+    // Check if the spacebar was pressed
+    if (event.code === 'Space') {
+      // Prevent the default spacebar action (scrolling the page down)
+      event.preventDefault();
+      // Start voice recognition
+      startDictation();
+    }
+  });
+
     // This function adds the microphone button to the widget
     function addMicrophoneButton() {
         // Create a new button element
