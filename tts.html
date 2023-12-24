@@ -74,18 +74,21 @@ function startDictation() {
 
         recognition.onresult = function (e) {
             var text = e.results[0][0].transcript;
-
-            // Target the Voiceglow chat widget's input field
             var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
+            
             if (chatInput) {
-                chatInput.value = text;
-
-                // Dispatch the change event to make sure the widget recognizes the change
-                chatInput.dispatchEvent(new Event('change'));
-
-                // Optionally, if the chat widget requires pressing Enter, you can simulate that
-                // var enterEvent = new KeyboardEvent('keypress', {'key': 'Enter'});
-                // chatInput.dispatchEvent(enterEvent);
+                chatInput.value = text; // Set the value to the transcribed text
+                
+                // Wait a bit before dispatching the change event
+                setTimeout(function() {
+                    chatInput.dispatchEvent(new Event('change'));
+                }, 100); // Delay in milliseconds
+                
+                // If the widget still requires an Enter keypress, uncomment the following lines:
+                // setTimeout(function() {
+                //     var enterEvent = new KeyboardEvent('keypress', {'key': 'Enter'});
+                //     chatInput.dispatchEvent(enterEvent);
+                // }, 100);
             }
 
             recognition.stop();
@@ -106,6 +109,7 @@ window.addEventListener('keydown', function(event) {
         startDictation();
     }
 });
+
 
 
     // This function adds the microphone button to the widget
