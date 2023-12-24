@@ -62,49 +62,51 @@
     </script>
 
     <script>
-    function startDictation() {
-        if (window.hasOwnProperty('webkitSpeechRecognition')) {
-            var recognition = new webkitSpeechRecognition();
+function startDictation() {
+    if (window.hasOwnProperty('webkitSpeechRecognition')) {
+        var recognition = new webkitSpeechRecognition();
 
-            recognition.continuous = false;
-            recognition.interimResults = false;
+        recognition.continuous = false;
+        recognition.interimResults = false;
 
-            recognition.lang = 'en-US';
-            recognition.start();
+        recognition.lang = 'en-US';
+        recognition.start();
 
-            recognition.onresult = function (e) {
-                var text = e.results[0][0].transcript;
+        recognition.onresult = function (e) {
+            var text = e.results[0][0].transcript;
 
-                // Target the Voiceglow chat widget's input field
-                var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
-                if (chatInput) {
-                    chatInput.value = text;
+            // Target the Voiceglow chat widget's input field
+            var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
+            if (chatInput) {
+                chatInput.value = text;
 
-                    // Simulate an Enter keypress to send the message
-                    var event = new KeyboardEvent('keypress', {
-                        'key': 'Enter'
-                    });
-                    chatInput.dispatchEvent(event);
-                }
+                // Dispatch the change event to make sure the widget recognizes the change
+                chatInput.dispatchEvent(new Event('change'));
 
-                recognition.stop();
-            };
+                // Optionally, if the chat widget requires pressing Enter, you can simulate that
+                // var enterEvent = new KeyboardEvent('keypress', {'key': 'Enter'});
+                // chatInput.dispatchEvent(enterEvent);
+            }
 
-            recognition.onerror = function (e) {
-                recognition.stop();
-            };
-        }
+            recognition.stop();
+        };
+
+        recognition.onerror = function (e) {
+            recognition.stop();
+        };
     }
+}
 
-          window.addEventListener('keydown', function(event) {
+window.addEventListener('keydown', function(event) {
     // Check if the spacebar was pressed
     if (event.code === 'Space') {
-      // Prevent the default spacebar action (scrolling the page down)
-      event.preventDefault();
-      // Start voice recognition
-      startDictation();
+        // Prevent the default spacebar action (scrolling the page down)
+        event.preventDefault();
+        // Start voice recognition
+        startDictation();
     }
-  });
+});
+
 
     // This function adds the microphone button to the widget
     function addMicrophoneButton() {
