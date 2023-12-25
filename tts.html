@@ -38,7 +38,8 @@
     })()
     </script>
 
-<script>// Check for browser compatibility and request microphone permissions
+    <script>
+// Check for browser compatibility and request microphone permissions
 if (window.hasOwnProperty('webkitSpeechRecognition')) {
   const recognition = new webkitSpeechRecognition();
 
@@ -91,7 +92,49 @@ if (window.hasOwnProperty('webkitSpeechRecognition')) {
     console.error('Speech recognition error:', e);
   };
 
-  // ... (Rest of the code for widget interaction)
+function observeChatInput() {
+  // **Code to observe chat input changes:**
+  // - Use a MutationObserver or a polling mechanism to detect changes in the chat input's value.
+  // - If the value is cleared, you might want to reset it to a default message or trigger other actions.
+  // - Example using MutationObserver:
+  const chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
+  const observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      if (mutation.type === 'attributes' && mutation.attributeName === 'value') {
+        const currentValue = chatInput.value;
+        if (currentValue === '') {
+          // Handle cleared input
+        }
+      }
+    });
+  });
+  observer.observe(chatInput, { attributes: true, attributeFilter: ['value'] });
+}
+
+function addMicrophoneButton() {
+  // **Code to add the microphone button to the widget:**
+  // - Create a button element using JavaScript.
+  // - Set the button's content to a microphone icon or text.
+  // - Attach an event listener to the button's click event to call the `startDictation` function.
+  // - Append the button to the appropriate container within your widget's structure.
+  // - Example:
+  const micButton = document.createElement('button');
+  micButton.innerHTML = ''; // Microphone emoji
+  micButton.onclick = startDictation;
+  const actionContainer = document.querySelector('.vg-footer-icons-container'); // Replace with the actual selector for your widget's action container
+  if (actionContainer) {
+    actionContainer.appendChild(micButton);
+  } else {
+    console.error('Chat widget action container not found');
+  }
+}
+
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      observeChatInput();
+      addMicrophoneButton();
+    }, 5000); // Adjust the delay as needed
+  });
 } else {
   console.error('Speech recognition not supported in this browser.');
   // Provide fallback mechanism for non-supporting browsers
