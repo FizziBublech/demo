@@ -5,38 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Voiceglow HTML Sample</title>
     <!-- CSS Styles -->
-    <style>
-    .speech {
-        border: 1px solid #ddd;
-        width: 300px;
-        padding: 0;
-        margin: 0;
-    }
-    .speech input {
-        border: 0;
-        width: 240px;
-        display: inline-block;
-        height: 30px;
-    }
-    .speech img {
-        float: right;
-        width: 40px;
-    }
-    </style>
+
 </head>
 <body>
     <h1>Voiceglow HTML Sample</h1>
     <p>This is basically your website here :)</p>
     <p>Did you know that the strongest muscle in the body is the tongue?</p>
 
-    <form id="labnol" method="get" action="https://www.google.com/search">
-    <div class="speech">
-        <input type="text" name="q" id="transcript" placeholder="Speak" />
-        <img onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif" />
-    </div>
-    </form>
 
-    <div style="width: 0; height: 0;" id="VG_OVERLAY_CONTAINER">
+    <div style="width: 500; height: 500;" id="VG_OVERLAY_CONTAINER">
         <!-- Here is where Voiceglow renders the widget. -->
         <!-- Set render to 'full-width' then adjust the width and height to 500px (for example) to render the chatbot itself without the popup. -->
     </div>
@@ -48,7 +25,7 @@
         window.VG_CONFIG = {
             ID: "15aqom7q7",
             region: 'na', // 'eu' or 'na' corresponding to Europe and North America
-            render: 'popup', // popup or full-width
+            render: 'full-width', // popup or full-width
             stylesheets: [
                 // Base Voiceglow CSS
                 "https://storage.googleapis.com/speakwiz-app.appspot.com/vg_live_build/styles.css",
