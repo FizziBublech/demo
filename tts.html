@@ -39,106 +39,123 @@
     </script>
 
     <script>
-// Check for browser compatibility and request microphone permissions
-if (window.hasOwnProperty('webkitSpeechRecognition')) {
-  const recognition = new webkitSpeechRecognition();
+function startDictation() {
+    if (window.hasOwnProperty('webkitSpeechRecognition')) {
+        var recognition = new webkitSpeechRecognition();
 
-  recognition.continuous = false; // Stop recording on first pause
-  recognition.interimResults = false;
-  recognition.lang = 'en-US';
+        recognition.continuous = false; // Change to true if you want it to keep listening until manually stopped
+        recognition.interimResults = false;
 
-  let finalTranscript = ''; // Variable to hold the final transcript
+        recognition.lang = 'en-US';
 
-  // Request microphone permissions
-  navigator.mediaDevices.getUserMedia({ audio: true })
-    .then(() => {
-      console.log('Microphone permission granted.');
-    })
-    .catch((error) => {
-      console.error('Microphone permission denied:', error);
-      // Handle permission denial
-    });
+        recognition.onresult = function (e) {
+            var text = e.results[0][0].transcript;
+            var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
+            if (chatInput) {
+                chatInput.focus();
+                chatInput.value = text;
+                chatInput.dispatchEvent(new Event('input', { bubbles: true }));
+                chatInput.blur();
+                setTimeout(function() {
+                    chatInput.dispatchEvent(new Event('change', { bubbles: true }));
+                }, 100);
+            }
+        };
 
-  function startDictation() {
-    recognition.start();
+        recognition.onerror = function (e) {
+            console.error('Speech recognition error:', e);
+        };
 
-    // Use addEventListener for better reliability
-    window.addEventListener('keyup', stopDictation, { once: true });
-  }
+        // Start the speech recognition
+        recognition.start();
 
-  function stopDictation(event) {
-    if (event.code === 'Space') {
-      recognition.stop();
-
-      const chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
-      if (chatInput && finalTranscript) {
-        chatInput.focus();
-        chatInput.value = finalTranscript;
-        chatInput.dispatchEvent(new Event('input', { bubbles: true }));
-        chatInput.dispatchEvent(new KeyboardEvent('keypress', { 'key': 'Enter' }));
-      }
-
-      finalTranscript = '';
-    } else {
-      console.log('Ignoring keyup event:', event.code); // Log non-space key events
+        // Stop the speech recognition and process the results when the space key is released
+        window.addEventListener('keyup', function stopDictation(event) {
+            if (event.code === 'Space') {
+                recognition.stop();
+                window.removeEventListener('keyup', stopDictation); // Remove the keyup listener once it's done
+            }
+        }, {once: true}); // Use once so the event is automatically removed after it fires once
     }
-  }
+}
 
-  recognition.onresult = function (e) {
-    finalTranscript += e.results[0][0].transcript; // Append the latest text
-  };
-
-  recognition.onerror = function (e) {
-    console.error('Speech recognition error:', e);
-  };
+// Start dictation when the space key is pressed
+window.addEventListener('keydown', function(event) {
+    if (event.code === 'Space' && event.repeat === false) { // Check if the space key was pressed and avoid repeating when held down
+        event.preventDefault(); // Prevent the default spacebar action (scrolling the page down)
+        startDictation();
+    }
+});
 
 function observeChatInput() {
-  // **Code to observe chat input changes:**
-  // - Use a MutationObserver or a polling mechanism to detect changes in the chat input's value.
-  // - If the value is cleared, you might want to reset it to a default message or trigger other actions.
-  // - Example using MutationObserver:
-  const chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
-  const observer = new MutationObserver(function(mutations) {
-    mutations.forEach(function(mutation) {
-      if (mutation.type === 'attributes' && mutation.attributeName === 'value') {
-        const currentValue = chatInput.value;
-        if (currentValue === '') {
-          // Handle cleared input
+    var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
+    if (chatInput) {
+        console.log("Observing chat input changes");
+        var observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                console.log("Mutation observed:", mutation);
+                if (mutation.type === 'attributes' && mutation.attributeName === 'value') {
+                    var currentValue = chatInput.value;
+                    console.log("Current input value:", currentValue);
+                    if (currentValue === '') {
+                        console.log("Input was cleared, resetting value");
+                        chatInput.value = "Previous text here"; // Adjust as necessary
+                        chatInput.dispatchEvent(new Event('input', { bubbles: true }));
+                    }
+                }
+            });
+        });
+
+        observer.observe(chatInput, {
+            attributes: true,
+            attributeFilter: ['value']
+        });
+    } else {
+        console.error("Chat input not found");
+    }
+}
+
+
+
+
+
+
+    // This function adds the microphone button to the widget
+    function addMicrophoneButton() {
+        // Create a new button element
+        var micButton = document.createElement('button');
+        micButton.innerHTML = '🎤'; // Using a microphone emoji as the button content
+        micButton.onclick = startDictation; // Set the onclick event to startDictation
+
+        // Add classes to match the existing buttons' styling
+        micButton.className = 'vg-z-0 vg-group vg-relative vg-box-border vg-appearance-none vg-outline-none vg-select-none vg-whitespace-nowrap vg-font-normal vg-subpixel-antialiased vg-overflow-hidden vg-tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 vg-text-small vg-gap-unit-2 vg-rounded-medium vg-px-unit-0 vg-!gap-unit-0 vg-data-[pressed=true]:scale-[0.97] vg-transition-transform-colors-opacity vg-motion-reduce:transition-none vg-bg-transparent vg-text-primary vg-data-[hover=true]:bg-primary/20 vg-min-w-unit-10 vg-w-unit-10 vg-h-unit-10 vg-footer-icon vg-flex vg-justify-center vg-items-center vg-mr-unit-1 vg-mt-unit-1';
+
+        // Append the button to the chat widget's action area
+        var actionContainer = document.querySelector('.vg-footer-icons-container');
+        if (actionContainer) {
+            actionContainer.appendChild(micButton);
+        } else {
+            console.error('Chat widget action container not found');
         }
-      }
-    });
-  });
-  observer.observe(chatInput, { attributes: true, attributeFilter: ['value'] });
+    }
+
+window.addEventListener('load', function() {
+    // Call both functions after the page and widget have likely loaded
+    setTimeout(function() {
+        observeChatInput();
+        addMicrophoneButton();
+    }, 5000); // Adjust the delay as necessary based on your widget's load time
+});
+
+function simulateTyping(inputElement, text) {
+    for (let char of text) {
+        let evt = new KeyboardEvent('keypress', {'key': char});
+        inputElement.dispatchEvent(evt);
+    }
+    // Dispatch an enter keypress at the end if needed to submit
+    inputElement.dispatchEvent(new KeyboardEvent('keypress', {'key': 'Enter'}));
 }
 
-function addMicrophoneButton() {
-  // **Code to add the microphone button to the widget:**
-  // - Create a button element using JavaScript.
-  // - Set the button's content to a microphone icon or text.
-  // - Attach an event listener to the button's click event to call the `startDictation` function.
-  // - Append the button to the appropriate container within your widget's structure.
-  // - Example:
-  const micButton = document.createElement('button');
-  micButton.innerHTML = ''; // Microphone emoji
-  micButton.onclick = startDictation;
-  const actionContainer = document.querySelector('.vg-footer-icons-container'); // Replace with the actual selector for your widget's action container
-  if (actionContainer) {
-    actionContainer.appendChild(micButton);
-  } else {
-    console.error('Chat widget action container not found');
-  }
-}
-
-  window.addEventListener('load', function () {
-    setTimeout(function () {
-      observeChatInput();
-      addMicrophoneButton();
-    }, 5000); // Adjust the delay as needed
-  });
-} else {
-  console.error('Speech recognition not supported in this browser.');
-  // Provide fallback mechanism for non-supporting browsers
-}
-</script>
+    </script>
 </body>
 </html>
