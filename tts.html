@@ -72,27 +72,21 @@ function startDictation() {
         recognition.lang = 'en-US';
         recognition.start();
 
-        recognition.onresult = function (e) {
-            var text = e.results[0][0].transcript;
-            var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
-            
-            if (chatInput) {
-                chatInput.value = text; // Set the value to the transcribed text
-                
-                // Wait a bit before dispatching the change event
-                setTimeout(function() {
-                    chatInput.dispatchEvent(new Event('change'));
-                }, 100); // Delay in milliseconds
-                
-                // If the widget still requires an Enter keypress, uncomment the following lines:
-                // setTimeout(function() {
-                //     var enterEvent = new KeyboardEvent('keypress', {'key': 'Enter'});
-                //     chatInput.dispatchEvent(enterEvent);
-                // }, 100);
-            }
+recognition.onresult = function (e) {
+    var text = e.results[0][0].transcript;
+    var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
+    if (chatInput) {
+        chatInput.focus(); // Focus on the input
+        chatInput.value = text; // Set the value to the transcribed text
+        // Trigger the events as before
+        chatInput.dispatchEvent(new Event('input', { bubbles: true }));
+        setTimeout(function() {
+            chatInput.dispatchEvent(new Event('change', { bubbles: true }));
+        }, 100);
+    }
+    recognition.stop();
+};
 
-            recognition.stop();
-        };
 
         recognition.onerror = function (e) {
             recognition.stop();
