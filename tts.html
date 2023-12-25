@@ -97,6 +97,34 @@ recognition.onresult = function (e) {
     }
 }
 
+        function observeChatInput() {
+    var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
+    if (chatInput) {
+        var observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'value') {
+                    // The value attribute changed, possibly cleared by the widget. Reset it here.
+                    var text = chatInput.value; // Store the current value
+                    if (text === '') {
+                        // If the value is empty, it might have been cleared by the widget. You can reset it here.
+                        chatInput.value = text; // Set it to the previous value or the value from speech recognition
+                        // You may need to dispatch the event again if necessary.
+                        chatInput.dispatchEvent(new Event('input', { bubbles: true }));
+                    }
+                }
+            });
+        });
+
+        // Start observing the input field for attribute changes
+        observer.observe(chatInput, {
+            attributes: true
+        });
+
+        // Remember to disconnect the observer when you're done to prevent memory leaks
+        // observer.disconnect();
+    }
+}
+
 window.addEventListener('keydown', function(event) {
     // Check if the spacebar was pressed
     if (event.code === 'Space') {
