@@ -77,14 +77,11 @@ recognition.onresult = function (e) {
     var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
     if (chatInput) {
         chatInput.focus(); // Focus on the input
-        // Simulate typing
-        text.split('').forEach(function (char) {
-            var charCode = char.charCodeAt(0);
-            chatInput.dispatchEvent(new KeyboardEvent('keydown', {key: char, keyCode: charCode, which: charCode, bubbles: true}));
-            chatInput.dispatchEvent(new KeyboardEvent('keypress', {key: char, keyCode: charCode, which: charCode, bubbles: true}));
-            chatInput.value += char; // Add char to value
-            chatInput.dispatchEvent(new Event('input', { bubbles: true })); // Trigger input event
-        });
+        chatInput.value = text;
+        chatInput.dispatchEvent(new Event('input', { bubbles: true }));
+        chatInput.blur(); // May trigger change events or validation
+
+
         setTimeout(function() {
             chatInput.dispatchEvent(new Event('change', { bubbles: true }));
         }, 100);
