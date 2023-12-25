@@ -125,15 +125,7 @@ recognition.onresult = function (e) {
     }
 }
 
-window.addEventListener('keydown', function(event) {
-    // Check if the spacebar was pressed
-    if (event.code === 'Space') {
-        // Prevent the default spacebar action (scrolling the page down)
-        event.preventDefault();
-        // Start voice recognition
-        startDictation();
-    }
-});
+
 
 
 
@@ -156,13 +148,24 @@ window.addEventListener('keydown', function(event) {
         }
     }
 
-    // It's important to ensure that the chat widget is loaded before trying to add the microphone button
-    // If the widget provides an event or callback when it's loaded, use that to call addMicrophoneButton
-    // Otherwise, you might need to use a timeout or another method to delay the addition of the button
-    window.addEventListener('load', function() {
-        // Delay the addition of the microphone button to ensure the widget is loaded
-        setTimeout(addMicrophoneButton, 5000); // 5 seconds for example, adjust as needed
-    });
+        window.addEventListener('keydown', function(event) {
+    // Check if the spacebar was pressed
+    if (event.code === 'Space') {
+        // Prevent the default spacebar action (scrolling the page down)
+        event.preventDefault();
+        // Start voice recognition
+        startDictation();
+    }
+});
+
+
+window.addEventListener('load', function() {
+    // Call both functions after the page and widget have likely loaded
+    setTimeout(function() {
+        observeChatInput();
+        addMicrophoneButton();
+    }, 5000); // Adjust the delay as necessary based on your widget's load time
+});
     </script>
 </body>
 </html>
