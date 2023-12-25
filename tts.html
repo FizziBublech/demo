@@ -97,33 +97,34 @@ recognition.onresult = function (e) {
     }
 }
 
-        function observeChatInput() {
+function observeChatInput() {
     var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
     if (chatInput) {
+        console.log("Observing chat input changes");
         var observer = new MutationObserver(function(mutations) {
             mutations.forEach(function(mutation) {
+                console.log("Mutation observed:", mutation);
                 if (mutation.type === 'attributes' && mutation.attributeName === 'value') {
-                    // The value attribute changed, possibly cleared by the widget. Reset it here.
-                    var text = chatInput.value; // Store the current value
-                    if (text === '') {
-                        // If the value is empty, it might have been cleared by the widget. You can reset it here.
-                        chatInput.value = text; // Set it to the previous value or the value from speech recognition
-                        // You may need to dispatch the event again if necessary.
+                    var currentValue = chatInput.value;
+                    console.log("Current input value:", currentValue);
+                    if (currentValue === '') {
+                        console.log("Input was cleared, resetting value");
+                        chatInput.value = "Previous text here"; // Adjust as necessary
                         chatInput.dispatchEvent(new Event('input', { bubbles: true }));
                     }
                 }
             });
         });
 
-        // Start observing the input field for attribute changes
         observer.observe(chatInput, {
-            attributes: true
+            attributes: true,
+            attributeFilter: ['value']
         });
-
-        // Remember to disconnect the observer when you're done to prevent memory leaks
-        // observer.disconnect();
+    } else {
+        console.error("Chat input not found");
     }
 }
+
 
 
 
