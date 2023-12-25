@@ -166,6 +166,16 @@ window.addEventListener('load', function() {
         addMicrophoneButton();
     }, 5000); // Adjust the delay as necessary based on your widget's load time
 });
+
+function simulateTyping(inputElement, text) {
+    for (let char of text) {
+        let evt = new KeyboardEvent('keypress', {'key': char});
+        inputElement.dispatchEvent(evt);
+    }
+    // Dispatch an enter keypress at the end if needed to submit
+    inputElement.dispatchEvent(new KeyboardEvent('keypress', {'key': 'Enter'}));
+}
+
     </script>
 </body>
 </html>
