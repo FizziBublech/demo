@@ -66,7 +66,7 @@ function startDictation() {
     if (window.hasOwnProperty('webkitSpeechRecognition')) {
         var recognition = new webkitSpeechRecognition();
 
-        recognition.continuous = false;
+        recognition.continuous = false; // Change to true if you want it to keep listening until manually stopped
         recognition.interimResults = false;
 
         recognition.lang = 'en-US';
@@ -75,8 +75,13 @@ function startDictation() {
             var text = e.results[0][0].transcript;
             var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
             if (chatInput) {
-                chatInput.focus(); // Focus on the input
-                simulateTyping(chatInput, text); // Use simulateTyping to mimic user typing
+                chatInput.focus();
+                chatInput.value = text;
+                chatInput.dispatchEvent(new Event('input', { bubbles: true }));
+                chatInput.blur();
+                setTimeout(function() {
+                    chatInput.dispatchEvent(new Event('change', { bubbles: true }));
+                }, 100);
             }
         };
 
@@ -84,25 +89,26 @@ function startDictation() {
             console.error('Speech recognition error:', e);
         };
 
+        // Start the speech recognition
         recognition.start();
 
+        // Stop the speech recognition and process the results when the space key is released
         window.addEventListener('keyup', function stopDictation(event) {
             if (event.code === 'Space') {
                 recognition.stop();
-                window.removeEventListener('keyup', stopDictation);
+                window.removeEventListener('keyup', stopDictation); // Remove the keyup listener once it's done
             }
-        }, {once: true});
+        }, {once: true}); // Use once so the event is automatically removed after it fires once
     }
 }
 
-function simulateTyping(inputElement, text) {
-    for (let char of text) {
-        let evt = new KeyboardEvent('keypress', {'key': char});
-        inputElement.dispatchEvent(evt);
+// Start dictation when the space key is pressed
+window.addEventListener('keydown', function(event) {
+    if (event.code === 'Space' && event.repeat === false) { // Check if the space key was pressed and avoid repeating when held down
+        event.preventDefault(); // Prevent the default spacebar action (scrolling the page down)
+        startDictation();
     }
-    // Dispatch an enter keypress at the end if needed to submit
-    inputElement.dispatchEvent(new KeyboardEvent('keypress', {'key': 'Enter'}));
-}
+});
 
 function observeChatInput() {
     var chatInput = document.getElementById('VG_TEXT_INPUT_CHATBOT');
