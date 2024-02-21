@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Socket.IO Test</title>
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const socket = io('https://dara-v-3.replit.app');
+
+            socket.on('connect', () => {
+                console.log('Connected to the server.');
+                socket.emit('test_from_client', { message: 'Hello from the client' });
+            });
+
+            socket.on('test_message', (data) => {
+                console.log('Test message from server:', data);
+            });
+
+            socket.on('disconnect', () => {
+                console.log('Disconnected from the server.');
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Socket.IO Test</h1>
+</body>
+</html>
