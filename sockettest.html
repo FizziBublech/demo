@@ -17,6 +17,10 @@
                 console.log('Test message from server:', data);
             });
 
+            socket.on('search_parameters', (data) => {
+                console.log('Test message from server:', data);
+            });
+
             socket.on('disconnect', () => {
                 console.log('Disconnected from the server.');
             });
